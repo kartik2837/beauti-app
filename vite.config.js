@@ -9,5 +9,9 @@ export default defineConfig({
     react()
 
   ],
+  build: {
+    outDir: 'dist'
+  },
+  base: './'
 
 })
